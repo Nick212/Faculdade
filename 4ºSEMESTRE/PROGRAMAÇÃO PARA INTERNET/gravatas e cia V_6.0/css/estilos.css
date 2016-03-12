@@ -1,0 +1,343 @@
+/* DEFININDO UMA FONTE E COR BASE PARA TODOS OS TEXTOS DO SITE NA TAG BODY */
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+header {
+	position: relative;
+	height: 114px;
+}
+
+.sacola {
+	background: url(../img/sacola.png) no-repeat top right;
+
+	font-size: 14px;
+	padding-right: 35px;
+	text-align: right;
+	width: 140px;
+
+	padding-top: 8px;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	color:#FFF;
+
+}
+
+header form {
+	position: absolute;
+
+	bottom: 0;
+	right: 0;
+
+	padding: 5px;
+
+	background-color: #696969;
+	color: #FFFFFF;
+}
+
+header form fieldset legend {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.menu {
+	background-color: #282828;
+	height: 40px;
+
+	position: relative;
+}
+
+.menu-opcoes {
+	position: relative;
+	top: 12px;
+	left: 0;
+}
+
+.menu-opcoes li {
+	display: inline;
+	margin-right: 50px;
+}
+
+.menu-opcoes li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #282828;
+}
+.destaque {
+	margin-top: 10px;
+
+}
+
+.busca, .menu-categorias {
+	background-color: #696969;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-right: 10px;
+	width: 200px;
+
+	float: left;
+}
+
+.busca {
+	padding-bottom: 10px;
+	clear: left;
+}
+
+.busca h2, .busca form, .menu-categorias h2 {
+	margin: 10px;
+	color: #FFFFFF;
+}
+
+.menu-categorias li {
+	background-color: #FFFFFF;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+
+.menu-categorias a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.busca input {
+	vertical-align: middle;
+}
+
+.busca input[type=search] {
+	width: 150px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.menu-categorias {
+	clear: left;
+
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.painel {
+	margin: 10px 0;
+	width: 700px;
+	padding: 10px;
+
+	float: right;
+
+}
+.painel2 {
+	margin: 10px 0;
+	width: 700px;
+	padding: 10px;
+
+}
+
+.painelPedidos {
+	margin: 10px 0;
+	width: 700px;
+	padding: 10px;
+	float: right;
+
+}
+.painelPedidos2{
+	margin: 10px 0;
+	width: 100%;
+	padding: 10px;
+	float: center;
+
+}
+
+.promocoes {
+	background-color: #696969;
+
+}
+
+.painel ol li {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 200px;
+
+	margin-left: 20px;
+	padding-bottom: 40px;
+}
+
+.painel img {
+	width: inherit;
+	height: inherit;
+}
+
+.painel h2 {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-bottom: 10px;
+}
+
+.painel a {
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.painel ul {
+	text-align: center;
+}
+
+.painel ul li {
+	display: inline;
+	margin-left: 12px;
+}
+
+.painel ul li a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sacola a {
+	color:#000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+footer {
+	clear: both;
+	background-color: #282828;
+	height: 150px;
+}
+
+.social li a {
+	/* tamanho da imegem */
+	height: 32px;
+	width: 32px;
+
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+	background-image: url(../img/googleplus.png);
+}
+
+footer .container {
+	position: relative;
+}
+
+.social {
+	position: absolute;
+	top: 25px;
+	right: 0;
+}
+
+.social li {
+	float: left;
+	margin-left: 25px;
+}
+
+.admin
+{
+  width:100px;
+}
+
+.pedidosRealizados{
+	color: #FFFFFF;
+	text-align: center;
+	width:100%;
+}
+
+.pedidos{
+	background-color: #696969;
+	color : #FFFFFF;
+}
+
+article{
+	color:#FFFFFF;
+}
+
+//Rith
+.button1{
+    text-align: center;
+	width:176%;
+}
+
+.button2{
+    top: 20px;  right: 40px; 
+    margin-bottom: 13em;
+	float:right; width: 19%;
+}
+
+.button3{
+   top: 20px;  right: 40px;
+   margin-bottom: 13em;
+   float:right; 
+   width: auto; 
+}
+
+.listadeusuarios {
+	color: #FFFFFF;
+	text-align: center;
+	width:100%;
+}
+
+.listaproduto{
+	color: #FFFFFF;
+	text-align: center;
+	width:100%;
+	margin-bottom: 13em;
+	}	
+
+.casdastrodecategoria{
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 13em;
+	width:50%;
+	margin: 50px 0;
+}
+.categoria {	
+	color: #FFFFFF;
+	text-align: center;
+	width:100%;
+	margin-bottom: 13em;
+}
+	
+.cadastro {
+  background-color: #696969;
+	width:100%;
+	
+
+
+}
+
+.categorias {
+	margin: 10px 50px 10px 50px;
+	text-align: center;
+	width: 823px;
+	padding: 10px;
+	margin-left: 440px;
+	float: center;
+	color: #FFF;
+}
+.categorias  h2 {
+margin-right: 500%;
+}

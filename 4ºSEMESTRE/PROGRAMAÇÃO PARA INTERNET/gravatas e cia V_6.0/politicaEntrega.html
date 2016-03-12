@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Gravatas & Cia</title>
+
+		<!--ICONE NO TITLE-->
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<!-- RESETANDO OS VALORES PADRÕES DO NAVEGADOR -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+		<!-- CSS  PRINCIPAL -->
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+			<!--CSS MENU-->
+		<link rel="stylesheet" type="text/css" href="css/navStyle.css">
+
+		<!--VALIDAÇÕES DE LOGIN-->
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<!-- INÍCIO HEADER -->
+		<header class="container">
+			<h1>
+				<a href="index.html">
+					<img src="img/logo.png" alt="Gravatas & Cia">
+				</a>
+			</h1>
+			<p class="sacola">
+				<a href="carrinho.html"> Sacola de compras</a>
+			</p>
+			<form>
+				<fieldset>
+				<legend>Área Administrativa</legend>
+				<label for="login">Login:</label>
+					<input type="text" id="usuario" class="admin">
+				<label for="senha">Senha:</label>
+					<input type="password" id="senha"  class="admin">
+					<!--<button onclick="myFunction()">Logar</button>-->
+					<input type="button" value="Logar"  onclick="location. href='cadastroCategorias.html'">
+				</fieldset>
+			</form>			
+		</header>
+		<!-- FIM HEADER -->
+		<!-- INÍCIO MENU .MENU-OPCOES-->
+		<section class="menu">
+			<nav class="container menu-opcoes">
+				<ul>
+					<li><a href="index.html">Produtos</a></li>
+					<li><a href="pedidos.html">Pedidos</a></li>
+					<li><a href="informacao.html">Informação</a>
+						<ul class="info">
+							<li><a href="informacao.html">Quem Somos</a></li>
+							<li><a href="pagamentoSeguro.html">Pagamento Seguro</a></li>
+							<li><a href="politicaEntrega.html">Política de Entrega</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</nav>	
+		</section>
+		<!-- FIM MENU .MENU-OPCOES-->
+		<!-- INÍCIO DESTAQUE -->
+		<div class="container destaque">
+			<!-- INÍCIO BUSCA -->
+			<section class="busca">
+				<h2>Busca de Produtos</h2>
+				<input type="search">
+				<input type="image" src="img/busca.png">
+			</section>
+			<!-- FIM BUSCA -->
+			<!-- INÍCIO MENU-CATEGORIAS -->
+			<section class="menu-categorias">
+				<h2>Categorias</h2>
+					<ul>
+						<li><a href="adulto.html">Adulto</a></li>
+						<li><a href="infantil.html">Infantil</a></li>
+						<li><a href="acessorios.html">Acessórios</a></li>
+					</ul>
+			</section>
+			<!-- FIM MENU-CATEGORIAS -->
+			<!-- INICIO .PAINEL .PROMOCOES -->
+			<section class="painel promocoes">
+				<h2>Política de Entrega</h2>
+				<article>
+				Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. 
+				Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+				Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. 
+				Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus 
+				velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.
+				</article>
+				  
+			</section>
+			<!-- FIM .PAINEL .PROMOCOES -->
+		</div>
+		<!-- FIM DESTAQUE -->
+		<!-- INÍCIO RODAPÉ -->
+		<footer>
+				<div class="container">
+					<a href="index.html">
+						<img src="img/logo.png" alt="Logo Gravatas e Cia">
+					</a>
+					<ul class="social">
+						<li><a href="http://facebook.com/">Facebook</a></li>
+						<li><a href="http://twitter.com/">Twitter</a></li>
+						<li><a href="http://plus.google.com/">Google+</a></li>
+					</ul>
+				</div>	
+		</footer>
+		<!-- FIM RODAPÉ -->
+	</body>
+</html>

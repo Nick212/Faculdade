@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+E:\NICOLAS\FACULDADE\1ºSEMESTRE\JAVA\JAVA\.metadata\.plugins\org.eclipse.jdt.core

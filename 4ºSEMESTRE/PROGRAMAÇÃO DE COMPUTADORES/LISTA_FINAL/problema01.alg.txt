@@ -1,0 +1,36 @@
+PROBLEMA 01 [0,10 pts.]
+A média bimestral de um aluno é composta de 50% da nota de prova, 40% da nota do projeto integrado e 10% da nota de exercícios. Utilizando o VisuAlg, crie um algoritmo que receba pelo teclado as três notas (real) de um aluno, informe a sua média bimestral.
+OBS.: Neste algoritmo NÃO deve-se utilizar as instruções condicionais e/ou instruções de repetição
+
+
+algoritmo "Situação com média"
+
+var
+
+n1, n2, n3, media :real
+
+inicio
+
+escreval("Digite a 1 nota prova 50% :")
+
+leia(n1)
+
+escreval("Digite a 2ª nota Projeto 40% :")
+
+leia(n2)
+
+escreval("Digite a 3ª nota trabalho :")
+
+leia(n3)
+
+media<- ( 0,5*100 + 0,4*100 + 0,1*100) / 3
+
+se(media >= 6) então
+
+escreval("O aluno foi aprovado com média: ",media)
+
+senão
+
+escreval("O aluno não foi aprovado com média: ",media)
+
+fimse

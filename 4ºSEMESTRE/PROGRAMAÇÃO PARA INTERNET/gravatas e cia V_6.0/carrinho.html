@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Gravatas & Cia</title>
+
+		<!--ICONE NO TITLE-->
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<!-- RESETANDO OS VALORES PADRÕES DO NAVEGADOR -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+		<!-- CSS  PRINCIPAL -->
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		
+			<!--CSS MENU-->
+		<link rel="stylesheet" type="text/css" href="css/navStyle.css">
+
+		<!--VALIDAÇÕES DE LOGIN-->
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<!-- INÍCIO HEADER -->
+		<header class="container">
+			<h1>
+				<a href="index.html">
+					<img src="img/logo.png" alt="Gravatas & Cia">
+				</a>
+			</h1>
+			<p class="sacola">
+				<a href="carrinho.html">Sacola de compras</a>
+			</p>
+			<form>
+				<fieldset>
+				<legend>Área Administrativa</legend>
+				<label for="login">Login:</label>
+					<input type="text" id="usuario" class="admin">
+				<label for="senha">Senha:</label>
+					<input type="password" id="senha"  class="admin">
+					<!--<button onclick="myFunction()">Logar</button>-->
+					<input type="button" value="Logar"  onclick="location. href='cadastroCategorias.html'">
+				</fieldset>
+			</form>			
+		</header>
+		<!-- FIM HEADER -->
+		<!-- INÍCIO MENU .MENU-OPCOES-->
+		<section class="menu">
+			<nav class="container menu-opcoes">
+				<ul>
+					<li><a href="index.html">Produtos</a></li>
+					<li><a href="pedidos.html">Pedidos</a></li>
+					<li><a href="informacao.html">Informação</a>
+						<ul class="info">
+							<li><a href="informacao.html">Quem Somos</a></li>
+							<li><a href="pagamentoSeguro.html">Pagamento Seguro</a></li>
+							<li><a href="politicaEntrega.html">Política de Entrega</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</nav>	
+		</section>
+		<!-- FIM MENU .MENU-OPCOES-->
+		<!-- INÍCIO DESTAQUE -->
+		<div class="container destaque">
+			<!-- INICIO .PAINEL .PEDIDOS REALIZADOS -->
+			<section class="painelPedidos pedidos">
+			
+				<h2>Pedidos inseridos no seu carrinho de compras</h2>
+					<hr>
+				<table class="pedidosRealizados">
+					<tr>
+						<th></th>
+						<th colspan="3">Data</th>
+						<th colspan="3">Produto</th>
+						<th colspan="3">Quantidade</th>
+					</tr>
+					<tr>
+						<td><input type="checkbox" /></td>
+						<td colspan="3">20/02/2015</td>
+						<td colspan="3">Gravata Slin 2</td>
+						<td colspan="3">3</td>
+					</tr>
+					
+				</table>
+				
+			</section>
+			<!-- FIM .PAINEL .PROMOCOES -->
+		</div>
+		<!-- FIM DESTAQUE -->
+		<!-- INÍCIO RODAPÉ -->
+		<footer>
+				<div class="container">
+					<a href="index.html">
+						<img src="img/logo.png" alt="Logo Gravatas e Cia">
+					</a>
+					<ul class="social">
+						<li><a href="http://facebook.com/">Facebook</a></li>
+						<li><a href="http://twitter.com/">Twitter</a></li>
+						<li><a href="http://plus.google.com/">Google+</a></li>
+					</ul>
+				</div>	
+		</footer>
+		<!-- FIM RODAPÉ -->
+	</body>
+</html>

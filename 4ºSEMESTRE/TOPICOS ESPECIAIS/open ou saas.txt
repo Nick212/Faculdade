@@ -1,0 +1,19 @@
+E-commerce: qual é a melhor escolha, open source ou SaaS? 
+Vantagens e Desvantagens
+
+SaaS
+Se o sua loja virtual não requer nenhum tipo de customização e seu orçamento é pequeno, a solução mais recomendada é o SaaS (Software as a Service). Contudo, é preciso ter bastante claro que as funcionalidades serão padronizadas (e às vezes limitadas) na solução de SaaS escolhida.
+
+
+Uma vantagem da opção pelo SaaS é que não há preocupação com infraestrutura de data center e atualizações de software. O modelo SaaS já inclui a hospedagem do e-commerce e deve garantir uma SLA (Service Level Agreement), além do provedor de SaaS ser o responsável pelas atualizações do sistema. Contudo, quanto maior o e-commerce, maior a necessidade da estrutura de hosting de alta disponibilidade e principalmente escalabilidade, capaz de suportar grandes picos e sazonalidades do varejo.
+
+
+
+Open Source
+Com o open source, além do controle absoluto do roadmap, você conquista a portabilidade da plataforma de e-commerce. Ou seja, não fica refém de uma plataforma de e-commerce “alugada”. Essa liberdade aumenta quando a opção de plataforma open source tem arquitetura de software modular. Assim, é possível desenvolver partes da plataforma, consideradas estratégicas, e terceirizar outras partes do desenvolvimento que são menos importantes. Contudo, para usufruir plenamente desta liberdade é importante possuir algum recurso interno de desenvolvimento.
+
+O código é aberto (grátis), mas requer investimento em implementação, integrações e customizações. Se optar por desenvolver seu e-commerce internamente, partindo de um open source, terá se separar parte do orçamento para contratação e treinamento da equipe técnica.
+
+
+link
+http://webinsider.com.br/2014/01/02/e-commerce-qual-e-a-melhor-escolha-open-source-ou-saas/

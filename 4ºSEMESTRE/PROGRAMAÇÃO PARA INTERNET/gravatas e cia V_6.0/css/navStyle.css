@@ -1,0 +1,26 @@
+    ul li{
+//      width: 100px;
+//      display: inline-block;
+        position: relative;
+        //text-align: center;
+        line-height: 21px;
+    }
+    ul li a:hover{
+        color: #000;
+        background-color: #939393;
+    }
+    ul li ul{
+        display: none;
+        position: absolute;
+        z-index: 999;
+	    width:230px;
+        padding-left: 240px;
+
+    }
+    ul li:hover ul{
+        display: block; /* display the dropdown */
+
+    }
+    .info{
+        width:200px;
+    }

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.principal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.principal.Principal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.principal.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="br.com.principal.EsqueceuSenha"
+            android:label="@string/title_activity_esqueceu_senha" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Esqueceu_a_Senha"
+            android:label="@string/title_activity_esqueceu_a__senha" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Administracao"
+            android:label="@string/title_activity_administracao" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Adm_Categoria_Cadastro_de_Categoria"
+            android:label="@string/title_activity_adm__categoria__cadastro_de__categoria" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Adm_Categoria_Cadastro_old"
+            android:label="@string/title_activity_adm__categoria__cadastro" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Adm_Categoria_Lista_de_Categoria"
+            android:label="@string/title_activity_adm__categoria__lista_de__categoria" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Adm_Categoria_Manutencao_da_Categoria"
+            android:label="@string/title_activity_adm__categoria__manutencao_da__categoria" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Cadastro_de_Livro"
+            android:label="@string/title_activity_cadastro_de__livro" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Lista_de_Livros"
+            android:label="@string/title_activity_lista_de__livros" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Manutencao_do_Livo"
+            android:label="@string/title_activity_manutencao_do__livo" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Dados_do_Usuario"
+            android:label="@string/title_activity_dados_do__usuario" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Alterar_Dados_Usuario"
+            android:label="@string/title_activity_alterar__dados__usuario" >
+        </activity>
+        <activity
+            android:name="br.com.principal.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Alterar_Senha_Usuario"
+            android:label="@string/title_activity_alterar__senha__usuario" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Catalogo"
+            android:label="@string/title_activity_catalogo" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Detalhes_Livro"
+            android:label="@string/title_activity_detalhes__livro" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Lista_Categoria"
+            android:label="@string/title_activity_lista__categoria" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Lista_Livros"
+            android:label="@string/title_activity_lista__livros" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Livros_Categoria"
+            android:label="@string/title_activity_livros__categoria" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Pesquisar_Livros"
+            android:label="@string/title_activity_pesquisar__livros" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Sobre_Aplicativo"
+            android:label="@string/title_activity_sobre__aplicativo" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Todos_Livros"
+            android:label="@string/title_activity_todos__livros" >
+        </activity>
+        <activity
+            android:name="br.com.principal.Adm_Categoria_Cadastro"
+            android:label="@string/title_activity_adm__categoria__cadastro" >
+        </activity>
+    </application>
+
+</manifest>

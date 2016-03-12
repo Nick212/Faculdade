@@ -1,0 +1,8 @@
+Acessando a servlet direto
+
+
+Acesse o arquivo WEB.XML
+
+altere o <welcome-file para
+
+ front

@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+E:\NICOLAS\FACULDADE\3ºSEMESTRE\ANDROID\PROJETO\.metadata\.plugins\org.eclipse.jdt.core
+83498214.index
+4047129629.index
+2769218002.index
