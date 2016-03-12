@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+public class Exe11 {
+	
+	public static void main(String[] args) {
+		double[] vetor1 = new double[10];
+		double[] vetor2 = new double[10];
+		
+		vetor1 = inserirValoresVetor();
+		vetor2 = inserirValoresVetor();
+		
+		double[]  resultSoma = somarValoresMesmoIndices(vetor1, vetor2);
+		imprimirResultado(resultSoma, "Soma");
+		
+		double[]  resultSubt = subtrairValoresMesmoIndices(vetor1, vetor2);
+		imprimirResultado(resultSubt, "Subtração");
+		
+		double[]  resultMult = multiplicarValoresMesmoIndices(vetor1, vetor2);
+		imprimirResultado(resultMult, "Multiplicacao");
+		
+		double[]  resultDivis = dividirValoresMesmoIndices(vetor1, vetor2);
+		imprimirResultado(resultDivis, "Divisao");
+	}
+	
+	protected static double[] inserirValoresVetor(){
+		double[] vetor = new double[10];
+		Scanner sc = new Scanner(System.in);
+		
+		for (int i = 0; i < vetor.length; i++) {
+			System.out.println("Digite um Valor Indice " + i + ": ");
+			vetor[i]  = sc.nextDouble(); 
+		}
+		return vetor;
+	}
+
+	protected static double[] somarValoresMesmoIndices(double[] vetor1, double[] vetor2) {
+		double[] total = new double[4];
+
+		for (int i = 0; i < total.length; i++) {
+			total[i] = vetor1[i] + vetor2[i];
+		}
+		return total;
+	}
+	protected static double[] subtrairValoresMesmoIndices(double[] vetor1, double[] vetor2) {
+		double[] total = new double[4];
+
+		for (int i = 0; i < total.length; i++) {
+			total[i] = vetor1[i] - vetor2[i];
+		}
+		return total;
+	}
+	protected static double[] multiplicarValoresMesmoIndices(double[] vetor1, double[] vetor2) {
+		double[] total = new double[4];
+
+		for (int i = 0; i < total.length; i++) {
+			total[i] = vetor1[i] * vetor2[i];
+		}
+		return total;
+	}
+	protected static double[] dividirValoresMesmoIndices(double[] vetor1, double[] vetor2) {
+		double[] total = new double[4];
+
+		for (int i = 0; i < total.length; i++) {
+			total[i] = vetor1[i] / vetor2[i];
+		}
+		return total;
+	}
+	
+	
+	protected static void imprimirResultado(double[] total, String operacao){
+		System.out.println("START-------" + operacao + "----------------------");
+		for (int i = 0; i < total.length; i++) {
+			System.out.println("Posição: "+ i + " = " + total[i]);
+		}
+		System.out.println("END --------" + operacao + "----------------------");
+	}
+
+}

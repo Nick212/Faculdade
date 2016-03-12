@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class Exe08 {
+
+	public static void main(String[] args) {
+		int vetor[] = new int[9];
+
+		Scanner sc = new Scanner(System.in);
+
+		for (int i = 0; i < vetor.length; i++) {
+			System.out.println("Digite um Número: ");
+			int valueRead = sc.nextInt();
+			if (valueRead % 2 == 0) {
+				vetor[i] = valueRead ;
+			}
+		}
+		System.out.println("Digite um Número: ");
+		int valueRead = sc.nextInt();
+		
+		boolean exist = valueExistInsideList(valueRead,  vetor);
+		if(exist)
+			System.out.println("O Número Digitado {0} contempla na Listas " + valueRead );
+	}
+protected static boolean valueExistInsideList(int value, int[] vetor){
+	for (int i = 0; i < vetor.length; i++){
+		if(vetor[i] == value)
+			return true;				
+	}
+	return false;
+}
+}

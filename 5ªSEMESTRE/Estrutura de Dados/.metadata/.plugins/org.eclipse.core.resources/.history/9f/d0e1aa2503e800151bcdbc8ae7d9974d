@@ -1,0 +1,11 @@
+
+public class Exe10 {
+
+	public static void main(String[] args) {
+		double[] vetor1 = {1.5, 8.6, 4.9, 10.0};
+		double[] vetor2 = {2.7, 4.6, 5.5, 8.4};
+		
+
+	}
+
+}
