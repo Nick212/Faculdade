@@ -1,0 +1,35 @@
+public class Fila {
+	private int fila[];
+	private int qtde;
+	private int inicio;
+	private int fim;
+	
+	public Fila(int tamanho) {
+
+	}
+	
+	public int getQtde() {
+
+	}
+	
+	public int getElemento() {
+
+	}	
+	
+	public boolean estaVazia() {
+
+	}
+	
+	public boolean estaCheia() {
+
+	}	
+	
+	public void enfileirar(int e) {
+
+	}
+	
+	public int desenfileirar() {
+
+	}
+
+}
