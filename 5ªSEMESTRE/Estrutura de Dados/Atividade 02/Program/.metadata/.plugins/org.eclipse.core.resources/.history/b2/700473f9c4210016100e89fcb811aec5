@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Fila {
+
+	public static void main(String[] args) {
+
+	}
+
+	/**
+	 * 05) Criar um programa que leia pelo teclado um vetor de inteiros de 20
+	 * posições, separe os elementos pares e ímpares em dois vetores, e
+	 * exiba-os.
+	 */
+	public static boolean exercicio05() {
+		
+		try {
+			int[] listNumber = new int[20];
+			
+			for (int i = 0; i < listNumber.length; i++) {
+				showMessage("Digite um Número:");
+				int numberDigited = readKeyBoard();
+				listNumber[i] = numberDigited;
+			}
+			
+			orderByPar(listNumber);
+			orderByImpar(listNumber);
+			
+			
+			
+			return true;
+		} catch (Exception e) {
+			return false;
+		}		
+	}
+	
+	private static void orderByPar(int[] list){
+		
+	}
+
+	private static int readKeyBoard() {
+		Scanner sc = new Scanner(System.in);
+		return sc.nextInt();
+	}
+	
+	private static void showMessage(String msg){
+		System.out.println(msg);
+	}
+
+}

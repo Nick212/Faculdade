@@ -1,0 +1,20 @@
+
+public class Fila {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	
+	/**
+	 * 05) Criar um programa que leia pelo teclado um vetor de inteiros de 20 posições, separe os elementos pares e ímpares em dois vetores, e exiba-os.
+	 * */
+	public static boolean exercicio05(){
+		
+		
+		
+		return true;
+	}
+
+}
